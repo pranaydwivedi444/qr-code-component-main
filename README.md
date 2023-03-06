@@ -18,7 +18,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 Overview
 A Frontend Mentor project to replicate a given design of a QR code graphic with only CSS and HTML.
 
-##My process
+## My process
 This was a simple introduction to image and flexbox formatting. Some simple semantic markup was used as well to organize the HTML in a more readable way.
 
 ##Built with
