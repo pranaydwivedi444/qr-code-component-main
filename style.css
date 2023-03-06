@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.qrcode-container {
+  background-color: white;
+  display: block;
+  /* display: flex; */
+  flex-basis: 1;
+  flex-shrink: 0;
+
+  width: 16rem;
+  padding: 1rem 0.5rem;
+  border-radius: 5%;
+  text-align: center;
+  /* margin: 5% auto; */
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  /* height: auto; */
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  size: 10rem;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 3ch;
+}
